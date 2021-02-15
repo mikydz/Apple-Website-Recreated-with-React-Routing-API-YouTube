@@ -1,0 +1,40 @@
+/* Nav Bar Style */
+.nav-wrapper {
+  
+    background: rgba(0,0,0,0.8);
+    font-size: 0.85em;
+    font-weight: 200;
+  }
+  .nav-wrapper ul li a {
+      color: #fff;
+  }
+  
+  .navbar-brand img{
+      opacity: 0.8
+  }
+  .navbar-brand img:hover{
+      opacity: 1;
+  }
+  .nav-wrapper ul li a {
+      opacity: 0.8
+  }
+  .nav-wrapper ul li a:hover{
+  opacity: 1;
+  }
+  .navbar-toggler {
+      color: #fff;
+  }
+  .nav-item {
+      opacity: 0.9;
+      text-align: left !important;
+      padding: 4px 0;
+      border-bottom: 1px solid #4b4b4b;
+  }
+  @media (min-width: 768px) {
+	/*Nav bar*/
+	.nav-item {
+		text-align: center !important;
+		padding: 0;
+		border-bottom: 0px;
+	}
+}
